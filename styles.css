@@ -63,3 +63,25 @@ header {
   max-width: 1000px;
   border-radius: 10px;
 }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  /* Color base */
+  background-color: #f5f1e6;
+
+  /* Patrón de rombos */
+  background-image: 
+    linear-gradient(45deg, #eae4d5 25%, transparent 25%),
+    linear-gradient(-45deg, #eae4d5 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #eae4d5 75%),
+    linear-gradient(-45deg, transparent 75%, #eae4d5 75%);
+
+  background-size: 40px 40px;
+  background-position: 
+    0 0,
+    0 20px,
+    20px -20px,
+    -20px 0px;
+}
