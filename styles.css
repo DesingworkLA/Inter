@@ -1,0 +1,65 @@
+/* Fondo hueso */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f1e6;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+/* Logo */
+.logo img {
+  width: 80px;
+}
+
+/* Botones */
+.menu button {
+  margin-left: 15px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.menu button:hover {
+  background-color: #555;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+/* COMENTARIO */
+.comentario {
+  text-align: center;
+  padding: 40px 20px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* IMAGEN DESTACADA */
+.imagen-destacada {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.imagen-destacada img {
+  width: 80%;
+  max-width: 1000px;
+  border-radius: 10px;
+}
